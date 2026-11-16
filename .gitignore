@@ -1,0 +1,21 @@
+# Datasets are licensed and must not be published (keep the folder skeleton)
+dataset/**
+!dataset/**/
+!dataset/**/.gitkeep
+!dataset/**/README.txt
+paper/
+
+# Runtime outputs
+result/
+results_*/
+checkpoints/
+optuna_logs_*/
+
+# Python
+__pycache__/
+*.pyc
+*.pth
+
+# OS
+.DS_Store
+__MACOSX/
