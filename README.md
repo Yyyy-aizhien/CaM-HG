@@ -141,11 +141,26 @@ This code is provided for **research use only**. If you find it useful, please c
 ## Citation
 
 ```bibtex
-@inproceedings{yang2026camhg,
-  title     = {CaM-HG: Causal-Enhanced MoE and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations},
-  author    = {Yang, Mingjian and Wang, Yong and Liu, Peng and Yin, Wen},
-  booktitle = {Proceedings of ACL},
-  year      = {2026}
+@inproceedings{yang-etal-2026-cam,
+    title = "{C}a{M}-{HG}: Causal-Enhanced {M}o{E} and Hypergraphs Network for Incomplete Multimodal Emotion Recognition in Conversations",
+    author = "Yang, Mingjian  and
+      Wang, Yong  and
+      Liu, Peng  and
+      Yin, Wen",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.813/",
+    doi = "10.18653/v1/2026.findings-acl.813",
+    pages = "16501--16516",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Multimodal Emotion Recognition in Conversation (MERC) relies on integrating heterogeneous signals, yet real-world modality missingness frequently disrupts these systems. We contend that missingness is not merely a loss of data fidelity but a rupture of the fine-grained inter-modal causal chains essential for reasoning. Existing methods, which primarily focus on statistical reconstruction, often fail to bridge these logical gaps, effectively leaving semantic holes. To address this, we propose the Causal-Enhanced Mixture-of-Experts and Hypergraph Network (CaM-HG), employing a ``restore-then-mine'' paradigm. First, a Causal-Enhanced MoE module conditions experts on historical context to synthesize missing features that are both realistic and causally consistent, thereby patching the broken topology. Subsequently, an Asymmetric Causal Dynamic Hypergraph mines high-order correlations from the restored graph while enforcing strict temporal causality. Experiments on IEMOCAP, CMU-MOSI, and CMU-MOSEI show consistent improvements in terms of WAF1 and accuracy over strong baselines, e.g., surpassing SOTA benchmarks by 1.43{\%} and 1.25{\%} on IEMOCAP. The source code is included in the supplementary material."
 }
 ```
 
