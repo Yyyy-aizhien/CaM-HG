@@ -34,7 +34,6 @@ CaM-HG/
 ├── hypergraph_model.py     # AsymmetricCausalHypergraph, ExpertPoolingClassifier
 ├── hypergraph_layers.py    # CausalDynamicAdjacency, CausalHypergraphAttention, FeedForward, DropPath
 ├── run_ablations.py        # One-click ablation suite (6 modes)
-├── optuna_search.py        # Optional hyperparameter search (Optuna)
 ├── utils.py                # Seeding, logger, metrics, early stopping
 ├── config.py               # Auxiliary config holder
 ├── path.py                 # Dataset path definitions (dataset root = project root /dataset)
@@ -102,11 +101,6 @@ Ablation studies (edit `DATASET` / `BEST_PARAMS` at the top, then run):
 python run_ablations.py   # none / no_imputation / no_moe / no_gating / no_hypergraph / no_causal_factor
 ```
 
-Optional hyperparameter search (edit `TARGET_DATASET` at the top, then run):
-
-```bash
-python optuna_search.py
-```
 
 Key arguments:
 
